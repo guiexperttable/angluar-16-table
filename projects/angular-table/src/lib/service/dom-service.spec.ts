@@ -1,13 +1,14 @@
 import { TestBed } from '@angular/core/testing';
+import {DomService} from "angular-table";
 
-import { AngularTableService } from './angular-table.service';
 
-describe('AngularTableService', () => {
-  let service: AngularTableService;
+
+describe('DomService', () => {
+  let service: DomService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(AngularTableService);
+    service = TestBed.inject(DomService);
   });
 
   it('should be created', () => {
