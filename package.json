@@ -1,12 +1,13 @@
 {
   "name": "@guiexpert/angular-table",
-  "version": "16.0.0",
+  "version": "16.0.10",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "npm-update-table": "pnpm update @guiexpert/table"
   },
   "private": true,
   "dependencies": {
@@ -18,10 +19,10 @@
     "@angular/platform-browser": "^16.2.12",
     "@angular/platform-browser-dynamic": "^16.2.12",
     "@angular/router": "^16.2.12",
+    "@guiexpert/table": "^1.1.5",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.14.2",
-    "@guiexpert/table": "*"
+    "zone.js": "~0.14.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.2.10",
